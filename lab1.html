@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab1.css">
+</head>
+<body>
+    <div class="controls">
+    <input type="radio" id="vsed1">
+    <option value="1">1</option>
+    <input type="radio" id="vsed2">
+    <option value="2">2</option>
+    <input type="radio" id="vsed3">
+    <option value="3">3</option>
+    <input type="radio" id="vsed4">
+    <option value="4">4</option>
+    <input type="radio" id="vsed5">
+    <option value="5">5</option>
+    </div>
+    <div class = "vse1" id="vse1" style="display: none;">
+            <div id="dva1">
+                <p>TEKST</p>
+            </div>
+        <div class="nevse1">
+            <div id="odin1">
+                <h1>BAZA</h1>
+            </div>
+            <div id = "chetiri1">
+                <p>cringe</p>
+            </div>
+            <div id="tri1">
+                <h3>THE END</h3>
+            </div>
+        </div>
+    </div>
+    <div class = "vse2" id="vse2" style="display: none;">
+        <div id="odin2">
+            <h1>BAZA</h1>
+        </div>
+        <div class="nevse2">
+            <div id="dva2">
+                <h2>TEKST</h2>
+            </div>
+            <div id="nenevse2">
+                <div id="pyat2">
+                    <h2>Freestyler</h2>
+                </div>
+                <div id="chetiri2">
+                    <p>cringe</p>
+                </div>
+            </div>
+        </div>
+        <div id="tri2">
+            <h3>THE END</h3>
+        </div>
+    </div>
+    <div class = "vse3" id="vse3" style="display: none;">
+        <div id="odin3">
+            <h1>BAZA</h1>
+        </div>
+        <div class="nevse3">
+            <div id="pyat3">
+                <h2>Freestyler</h2>
+            </div>
+            <div id="chetiri3">
+                <p>cringe</p>
+            </div>
+            <div id="dva3">
+                <h2>TEKST</h2>
+            </div>
+        </div>
+        <div id="tri3">
+            <h3>THE END</h3>
+        </div>
+    </div>
+    <table style="display: none;" id="vse4">
+        <tbody class="vse4">
+            <tr id = "odin4">
+                <td>BAZA</td>
+            </tr>
+            <tr class="nevse4">
+                <td id="dva4">TEKST</td>
+                <td id = "chetiri4">cringe</td>
+                <td id="pyat4">Freestyler</td>
+            </tr>
+            <tr id = "tri4">
+                <td>THE END</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--<div class = "vse4">
+        <div id="odin4">
+            <h1>BAZA</h1>
+        </div>
+        <div class="nevse4">
+            <div id="dva4">
+                <h2>TEKST</h2>
+            </div>
+            <div id="chetiri4">
+                <p>cringe</p>
+            </div>
+            <div id="pyat4">
+                <h2>Freestyler</h2>
+            </div>
+        </div>
+        <div id="tri4">
+            <h3>THE END</h3>
+        </div>
+    </div>-->
+    <div class = "vse5"  id="vse5" style="display: none;">
+        <div id="odin5">
+            <h1>BAZA</h1>
+            <div id = "pustoodin5">
+                <p>PUSTO</p>
+            </div>
+        </div>
+        <div class="nevse5">
+            <div id="dva5">
+                <h2>TEKST</h2>
+            </div>
+            <div id="nenevse5">
+                <div id = "shest5">
+                    <h3>CHTOTO</h3>
+                </div>
+                <div id="nenenevse5">
+                    <div id="chetiri5">
+                        <p>cringe</p>
+                    </div>
+                    <div id="pyat5">
+                        <h2>Freestyler</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tri5">
+            <h3>THE END</h3>
+        </div>
+    </div>
+    <script>
+        let vsed1 = document.getElementById("vsed1");
+        let vsed2 = document.getElementById("vsed2");
+        let vsed3 = document.getElementById("vsed3");
+        let vsed4 = document.getElementById("vsed4");
+        let vsed5 = document.getElementById("vsed5");
+        let vse1 = document.getElementById("vse1");
+        let vse2 = document.getElementById("vse2");
+        let vse3 = document.getElementById("vse3");
+        let vse4 = document.getElementById("vse4");
+        let vse5 = document.getElementById("vse5");
+        vsed1.addEventListener("click", () => {
+            vse1.style.display = "flex";
+        });
+        vsed2.addEventListener("click", () => {
+            vse2.style.display = "flex";
+        });
+        vsed3.addEventListener("click", () => {
+            vse3.style.display = "flex";
+        });
+        vsed4.addEventListener("click", () => {
+            vse4.style.display = "flex";
+        });
+        vsed5.addEventListener("click", () => {
+            vse5.style.display = "flex";
+        });
+    </script>
+</div>
+</body>
+</html>

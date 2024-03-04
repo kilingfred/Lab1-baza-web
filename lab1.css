@@ -1,0 +1,186 @@
+
+div, table, tbody, td, tr {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.controls {
+    flex-direction: row;
+}
+.vse1 {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.nevse1 {
+    flex-direction: column;
+    flex-grow: 1;
+}
+#dva1 {
+    flex-direction: column;
+    background-color: yellow;
+}
+#odin1 {
+    background-color: blue;
+}
+#chetiri1 {
+    flex-grow: 1;
+}
+#odin1,#tri1 {
+    flex-direction: row;
+}
+#tri1 {
+    background-color: blue;
+}
+.vse2 {
+    min-width: 80vw;
+    min-height: 100vh;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.nevse2 {
+    min-width: 100%;
+    min-height: 80%;
+    flex-direction: column;
+}
+#dva2 {
+    align-self: flex-start;
+    min-height: 100%;
+    min-width: 15%;
+    background-color: yellow;
+}
+#odin2 {
+    align-self: flex-start;
+    background-color: blue;
+    min-width: 100%;
+    height: auto;
+}
+#tri2 {
+    min-width: 100%;
+    height: auto;
+    align-self: flex-end;
+    background-color: blue;
+}
+#pyat2 {
+    background-color: yellow;
+    min-width: 100%;
+    min-height: 20%;
+}
+#nenevse2 {
+    flex-direction: row;
+    min-width: 85%;
+    min-height: 100%;
+}
+#chetiri2 {
+    min-height: 80%;
+    min-width: 100%;
+}
+.vse3 {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.nevse3 {
+    min-width: 100%;
+    min-height: 80%;
+    flex-direction: row;
+}
+#odin3 {
+    align-self: flex-start;
+    background-color: blue;
+    min-width: 100%;
+    height: auto;
+}
+#tri3 {
+    min-width: 100%;
+    height: auto;
+    align-self: flex-end;
+    background-color: blue;
+}
+#dva3, #pyat3 {
+    background-color: yellow;
+    min-width: 13%;
+}
+#chetiri3 {
+    min-width: 70%;
+}
+.vse4 {
+    min-width: 80vw;
+    min-height: 100vh;
+    margin: 0px 50px 0px 50px;
+}
+.nevse4 {
+    min-width: 100%;
+    min-height: 80%;
+    flex-direction: row;
+}
+#odin4 {
+    align-self: flex-start;
+    background-color: blue;
+    min-width: 100%;
+    height: auto;
+}
+#tri4 {
+    min-width: 100%;
+    height: auto;
+    align-self: flex-end;
+    background-color: blue;
+}
+#dva4, #pyat4 {
+    background-color: yellow;
+    min-width: 13%;
+}
+#chetiri4 {
+    min-width: 70%;
+}
+.vse5 {
+    min-width: 80vw;
+    min-height: 100vh;
+    margin: 0px 50px 0px 50px;
+}
+.nevse5 {
+    min-width: 100%;
+    min-height: 80%;
+    flex-direction: row;
+}
+#odin5 {
+    align-self: flex-start;
+    background-color: yellow;
+    min-width: 100%;
+    height: auto;
+}
+#tri5 {
+    min-width: 100%;
+    height: auto;
+    align-self: flex-end;
+    background-color: yellow;
+}
+#dva5, #pyat5 {
+    background-color: blue;
+    min-width: 13%;
+}
+#chetiri5 {
+    min-width: 70%;
+}
+#shest5 {
+    background-color: red;
+    min-height: 20%;
+}
+#pustoodin5 {
+    background-color: white !important;
+    min-width: 20%;
+    min-height: 20%;
+}
+#odin5,#pustoodin5 {
+    justify-content: space-between;
+}
+#nenevse5 {
+    min-width: 80%;
+    min-height: 80%;
+    flex-direction: column;
+}
+#nenenevse5 {
+    min-height: 75%;
+    flex-direction: row;
+}
